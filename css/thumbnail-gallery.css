@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.thumbnail h6 {
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	display: none;
+	line-height: .8;
+}
+
+.match {
+	pointer-events: none;
+}
+
+.page-header {
+	text-align: center;
+	border-bottom: none;
+	margin: 0 0 20px 0;
+}
+
+/* Play Again Button */
+
+#start {
+	display: none;
+	text-align: center;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+}
+.btn-primary {
+    background-color: #fff;
+    border-color: green;
+    color: green;
+    border: .5px solid green;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: .5px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin: 0 auto;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: green;
+  border-color: #0b5904;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
